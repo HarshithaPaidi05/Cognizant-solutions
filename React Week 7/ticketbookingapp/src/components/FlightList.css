@@ -1,0 +1,47 @@
+.flight-list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  padding: 12px;
+}
+
+.flight-card {
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flight-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.route { color: #555; font-size: 13px; }
+
+.flight-body { color: #333; font-size: 14px; margin-bottom: 8px; }
+
+.flight-actions { display: flex; justify-content: flex-end; }
+
+.btn-book {
+  background: #0b63ff;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-book:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-login-to-book {
+  background: #f0f4f8;
+  color: #9aa6b2;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px dashed #dbe7f5;
+}
