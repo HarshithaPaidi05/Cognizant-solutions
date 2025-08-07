@@ -1,0 +1,22 @@
+/* mystyle.css */
+
+.score-box {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.score-box h2 {
+  text-align: center;
+  color: #333;
+}
+
+.score-box p {
+  font-size: 16px;
+  margin: 8px 0;
+}
