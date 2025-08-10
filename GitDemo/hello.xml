@@ -1,5 +1,5 @@
 <note>
-  <to>UserFromMain</to>
+  <to>UserFromMain and GitWork</to>
   <from>Harshitha</from>
-  <message>Hello from main branch</message>
+  <message>Hello from both branches merged!</message>
 </note>
